@@ -1,5 +1,5 @@
 //Declaring variable and assigning a string value
-var name = 'Adetoye';
+var name = 'Adetoye'; //semicolon is optional
 var sayName = 'My name is Adetoye Babalola'
 // console.log(name);
 
@@ -21,4 +21,6 @@ var emptyInside = null;
 //Declaring a variable that is not defined - undefined
 var ;
 
-//Declaring a variable known as symbol 
+//Declaring a variable known as symbol: identifiers for object property
+Symbol()
+
