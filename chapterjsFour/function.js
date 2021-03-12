@@ -24,4 +24,4 @@ function workItOut(parameterFirst, parameterSecond, parameterThird)
     } 
   }
 console.log('Let',+ workItOut(35,5,'divide'));
-workItOut(34,56,'sum');
+workItOut(34,56,'sum');                           
