@@ -1,7 +1,7 @@
 //Example two should be on an operator
-    function squareRoot(number){
+    function squareNumber(number){
         let result = number * number
       return result
 
     }
-     squareRoot();
+     squareNumber();
