@@ -1,6 +1,6 @@
 #### Goal
   > Explain concatenation with example
-    Concatenate simply means to join together.
+    Concatenate simply means to join together. JavaScrpt concatenation uses the plus '+', the comma',' sign and template literals to concatenate strings.
 
   **Example** :
   > let myInstructor = 'Ebenezer Don';
@@ -22,4 +22,4 @@
     console.log (`I am ${myAge} years old`)
     //I am 25 years old
 
-    
+
