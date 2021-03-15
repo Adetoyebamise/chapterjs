@@ -10,8 +10,11 @@
 **Example**
 
 > function sqaureNumber(numberRia){
+
 >    return numberRia * numberRia;
+
 > }
+
 > console.log(sqaure(12));
 
 In this case the argument is 12.
