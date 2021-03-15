@@ -4,14 +4,15 @@
 
   **Example** :
   > let myInstructor = 'Ebenezer Don';
-  console.log('myInstructor' + ' is one of my favorite instructors ');
-  // Ebenezer Don is one of my favorite instructors
+
+  > console.log('myInstructor' + ' is one of my favorite instructors ');
+  > // Ebenezer Don is one of my favorite instructors
   
   String can also be concatenated using the comma',' symbol to but this does not require adding spaces into the string value or sentence.
   > let myInstructor = 'Ebenezer Don';
 
   > console.log('myInstructor' , 'is one of my favorite instructors')
-  
+
   > // Ebenezer Don is one of my favorite instructors
 
   We will see in the latter example that there is not space seperation with the is one of my favorite instructors; but the former there is a space seperation, this an instance worth noticing.
@@ -21,7 +22,8 @@
 
   **Example**
   >let myAge = 25;
-    console.log (`I am ${myAge} years old`)
-    //I am 25 years old
+    
+  > console.log (`I am ${myAge} years old`)
+  > //I am 25 years old
 
 
