@@ -1,7 +1,5 @@
 let name = 'Adetoye';
-//  console.log(name)
- name = 'Adetoye'
-//  console.log(name)
+//  console.log(name) 
  
 firstName = 'Adetoye'
 // console.log(firstName)
