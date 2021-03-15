@@ -1,12 +1,13 @@
 #### Goal
   > Explain concatenation with example
-  
+
     Concatenate simply means to join together. JavaScrpt concatenation uses the plus '+', the comma',' sign and template literals to concatenate strings.
 
   **Example** :
   > let myInstructor = 'Ebenezer Don';
 
   > console.log('myInstructor' + ' is one of my favorite instructors ');
+  
   > // Ebenezer Don is one of my favorite instructors
   
   String can also be concatenated using the comma',' symbol to but this does not require adding spaces into the string value or sentence.
