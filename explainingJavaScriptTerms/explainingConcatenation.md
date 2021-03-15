@@ -1,5 +1,6 @@
 #### Goal
   > Explain concatenation with example
+  
     Concatenate simply means to join together. JavaScrpt concatenation uses the plus '+', the comma',' sign and template literals to concatenate strings.
 
   **Example** :
