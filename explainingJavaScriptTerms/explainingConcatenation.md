@@ -6,7 +6,7 @@
   **Example** :
   > let myInstructor = 'Ebenezer Don';
 
-  > console.log('myInstructor' + ' is one of my favorite instructors ');
+  > console.log('myInstructor ' + ' is one of my favorite instructors ');
   
   > // Ebenezer Don is one of my favorite instructors
   
