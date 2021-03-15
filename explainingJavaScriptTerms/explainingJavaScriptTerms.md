@@ -24,11 +24,15 @@
       > 83%24 
   #### Difference between statements/expression
     A statement is an instruction to perform a specific action, while an expression is any ubit of value that can be evaluated to a value is an expression.
+
   #### JavaScript Function
     Javascript function has a name, parameter, curly bracket.
-    >function inMyOwnTerms(){
-      //statements
-    }
+
+  >function inMyOwnTerms(){
+
+  >   //statements
+  
+  > }
 
 
   #### Reference
