@@ -28,3 +28,8 @@ Step 1 : Find the element you want to work with when doing something with the DO
  Targeting the individual style properties is the recommended way of handling inline style because it allows us to modify just that property and nothing else
 
 **Add DOM elements**
+> parentNode.append()
+
+> ParentNode.prepend() //Here we replace element at the top instead of at the buttom 
+
+> Node.appendChild()
