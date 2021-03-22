@@ -6,11 +6,13 @@ DOM is short for Document Object MOdel, The DOM is an organization chart, create
 In JavaScript we need to tell JavaScript what to look for where to find it.
 
 **Access elements with querySelector Methods**
-Step 1 : Find the element you want to work with when doing something with the DOM
+        Step 1 : Find the element you want to work with when doing something with the DOM
 
 **Access elements using older methods**
--Method A: getElementByClassName : This returns an array of object from any node matching the query.
--Method B: getElementById : Developers use ids to target object.
+    Method A: getElementByClassName : This returns an array of object from any node matching the query.
+
+
+    Method B: getElementById : Developers use ids to target object.
 
 **Modify element classes**
     This is a common task of JavaScript and a simple way of changing the apperance and behavior.
@@ -24,8 +26,8 @@ Step 1 : Find the element you want to work with when doing something with the DO
     c) remove attribute
 
 **Inline Style**
- IN JavaScript we can lift out style information using the style property on that element; this property list all the available style property.
- Targeting the individual style properties is the recommended way of handling inline style because it allows us to modify just that property and nothing else
+    IN JavaScript we can lift out style information using the style property on that element; this property list all the available style property.
+    Targeting the individual style properties is the recommended way of handling inline style because it allows us to modify just that property and nothing else
 
 **Add DOM elements**
 > parentNode.append()
