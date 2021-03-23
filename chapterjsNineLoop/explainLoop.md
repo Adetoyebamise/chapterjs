@@ -7,20 +7,6 @@
 - Use the ForEach loop to loop through an array of objects and log the second property of each object to the console
 - Study chapter 6 and chapter 9
 
-#### Assignment Objective
-
--   Explain Infinite Loops with Example
-    
--   Explain For loops with Example
-    
--   Explain For each loops with Example
-    
--   Explain For of loops with example
-    
--   Use the ForEach loop to loop through an array of objects and log the second property of each object to the console
-    
--   Study chapter 6 and chapter 9
-
 ****
 **Infinite Loop with example**
 
