@@ -28,7 +28,8 @@ An infinite loop circles on and on till the end of time and space, or at least u
 Infinite loop occurs when a loop counter either doesn't get updated properly, or when it otherwise never changes to cause the loop's test condition to result in a false value.
 
 Example:
-```let number = 5;
+```
+let number = 5;
   while (number > 1) {
 console.log('Hello Beautiful People')
 }
@@ -56,7 +57,8 @@ to true . Once the test condition evaluates to false , the loop immediately exit
 
 Example:
 
-```for (let index = 5; index > 1; index++){
+```
+for (let index = 5; index > 1; index++){
 console.log('hello, howayu');
 }
 ```
@@ -65,7 +67,8 @@ console.log('hello, howayu');
 For each loops is used with JavaScript arrays. The <code>forEach()</code> method calls a function once for each element in an array, in order.
 
 Examples:
-```const carNames = ['Passat', 'Audi', 'Beattle', 'Infinity']
+```
+const carNames = ['Passat', 'Audi', 'Beattle', 'Infinity']
 carNames.forEach((carName) => { 
 console.log(carName)
 })         
@@ -81,12 +84,14 @@ console.log(carName)
 The <code>for ...of</code>  statement creates a loop iterating over iterable objects including: built-in String, Array arguments, Node List, typed Array, map, set and user-defined iterables.
 
 Syntax: 
-```for  (variable of iterable)  {
+```
+for  (variable of iterable)  {
 statement
 }
 ```
 Example:
-```const iterable = [10, 20, 30]
+```
+const iterable = [10, 20, 30]
 for (const value of iterable) {
 console.log(value)
 }
