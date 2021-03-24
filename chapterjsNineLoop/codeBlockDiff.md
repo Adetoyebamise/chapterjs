@@ -22,3 +22,13 @@ Code Block B
  });
 
 ```
+
+**Difference A**
+
+
+|  |  |
+|--|--|
+| Code Block A 	 |Code Block B  |
+Code Block A does not accept function. The code block has value assigned to a particular variable declared but there is no function in the code block  | 		 Code Block B has a function, i.e a function can be passed in <code>forEach</code> loop. |
+
+
