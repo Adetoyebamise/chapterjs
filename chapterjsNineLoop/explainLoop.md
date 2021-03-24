@@ -72,15 +72,17 @@ The <code>for ...of</code>  statement creates a loop iterating over iterable obj
 Syntax: 
 ```
 for  (variable of iterable)  {
-statement
+  //statement
 }
+
 ```
 Example:
 ```
 const iterable = [10, 20, 30]
-for (const value of iterable) {
-console.log(value)
+ for (const value of iterable) {
+ console.log(value)
 }
+
 ```
 
 
@@ -89,15 +91,35 @@ console.log(value)
 
 Example:
 ``` 
-const carNames = ['Passat', 'Audi', 'Beattle', 'Infinity']
-carNames.forEach((carName) => { 
-console.log(carNames[1])
-})
-//prints
-Audi
-Audi
-Audi
-Audi
+const footballClubs = [
+  {
+    name: 'Chelsea',
+    country: 'England',
+    manager: 'Tuchel'
+
+  },
+
+  {
+    name: 'Manchester United',
+    country: 'England',
+    manager: 'Ole'
+  },
+
+  {
+    name: 'Barcalona',
+    country: 'Spain',
+    manager: 'Koeman'
+  },
+
+]
+
+footballClubs.forEach(club => {
+   console.log(club.country)
+});
+
+// Output : England
+			England
+			Spain
 ```
 
 ****
