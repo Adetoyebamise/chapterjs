@@ -7,7 +7,8 @@ or by returning them, are called _higher-order functions_.
 - Higher-order functions allow us to abstract over actions, not just values.
 
 - They come in several forms: For example we can have 
-    - functions that create new functions
+
+- Functions that create new functions
 
 ```
 function greaterThan(number) {
@@ -19,7 +20,7 @@ console.log(greaterThan10(11));
 Output -> true
 ```
 
-   - functions that change other functions
+   - Functions that change other functions
 
 ```
 function noisy(finagle) {
