@@ -18,9 +18,9 @@ This paradigm is called _Promises_.
 
     A promise is an object which can be returned synchronously from an asynchronous function. It will be in one of 3 possible states:
 
-    - Fulfilled: <code>onFulfilled()</code> will be called (e.g., <code>resolve()</code> was called)
-    - Rejected: <code>onRejected()</code> will be called (e.g., <code>reject()</code> was called)
-    - Pending: not yet fulfilled or rejected
+- Fulfilled: <code>onFulfilled()</code> will be called (e.g., <code>resolve()</code> was called)
+- Rejected: <code>onRejected()</code> will be called (e.g., <code>reject()</code> was called)
+- Pending: not yet fulfilled or rejected
     
     A promise is settled if it’s not pending (it has been resolved or rejected).
 
@@ -36,11 +36,11 @@ This paradigm is called _Promises_.
     ->  Hello!
     ```
 
-    - All spec-compatible promises define a <code>.then()</code> method which you use to pass handlers which can take the resolved or rejected value.
+- All spec-compatible promises define a <code>.then()</code> method which you use to pass handlers which can take the resolved or rejected value.
 
-    - That function takes two parameters, <code>resolve()</code>, and <code>reject()</code>. We can optionally <code>resolve()</code> or <code>reject()</code> with values, which will be passed to the callback functions attached with <ode>.then()</code>.
+- That function takes two parameters, <code>resolve()</code>, and <code>reject()</code>. We can optionally <code>resolve()</code> or <code>reject()</code> with values, which will be passed to the callback functions attached with <ode>.then()</code>.
 
-    - When I <code>reject()</code> with a value, I always pass an Error object. Generally I want two possible resolution states: the normal happy path, or an exception — anything that stops the normal happy path from happening. Passing an Error object makes that explicit.
+- When I <code>reject()</code> with a value, I always pass an Error object. Generally I want two possible resolution states: the normal happy path, or an exception — anything that stops the normal happy path from happening. Passing an Error object makes that explicit.
 ****
 **Reference**
 [Master the JavaScript Interiew: What is a Promise?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
