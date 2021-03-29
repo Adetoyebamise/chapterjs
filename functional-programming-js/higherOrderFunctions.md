@@ -10,6 +10,7 @@ or by returning them, are called _higher-order functions_.
 - They come in several forms: For example we can have 
 
 - A higher order function is a function that takes a function as an argument, or returns a function.
+
 Example:
 
 ```
@@ -40,6 +41,7 @@ output
 ```
 
 - Functions that create new functions
+
 Example:
 
 ```
@@ -53,6 +55,7 @@ Output -> true
 ```
 
    - Functions that change other functions
+
 Example:
 
 ```
@@ -73,6 +76,7 @@ Output -> called with [3,2,1]
    - Functions that provide new types of control flow
 
 We want the code to do a thing under a condition and another thing under another condition, this is called a controlflow. Control flow in programming is a general term used to describe things like for, if, and switch statements. 
+
 Example:
 
 ```
