@@ -9,15 +9,14 @@
 - <code>.map()</code> is a method accessible from every array in JS. The <code>.map()</code> method creates a new array with the results of calling a provided function on every element in the calling array.
 
         Example: 
-         ```
+         
         // triple the value of every item in a given array
 
          const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64,32 ];
 
          const triple = arr.map((currentItem) => currentItem * 3)
 
-         ```
-         ```
+         
          
          //Using the ages array
          const agesSquare = ages.map(age => Math.sqrt(age));
@@ -28,7 +27,7 @@
 
          console.log(agesTimesTwo)
 
-         ```
+         
  From the above example we see that the <code>map()</code> is characterized by the a callback and the current value element being possesed int he array
  
 **Reduce Method**
@@ -44,7 +43,7 @@ from the array and combining it with the current value.
 
  
         Example:
-        ```
+        
         // sum all the elements in a given array
          const sum = (arr) => arr.reduce((prev, current) => prev + current, 0)
 
@@ -56,11 +55,11 @@ from the array and combining it with the current value.
          }, 0);
 
          console.log(ageSumBeta);
-        ```
+        
  From the above examples of the reducer function; it is observable that it takes four arguments:
    * Accumulator
    * Current Value
-   * Current Index: The index 0
+   * Current Index: 
    * Source Array
 ****
 
