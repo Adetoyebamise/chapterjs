@@ -8,14 +8,14 @@
 
 Example:
 
-    ```
+    
     const timeout = () => {
     setTimeout(() => alert('Hey'), 1000);
     };
-    ```
+    
 
 ****
 **Reference**
-[JavaScript and Functional Programming - Pt.2: First Class Fuctions](https://medium.com/hackernoon/javascript-and-functional-programming-pt-2-first-class-functions-4437a1aec217)
+[JavaScript and Functional Programming - Pt.2: First Class Functions](https://medium.com/hackernoon/javascript-and-functional-programming-pt-2-first-class-functions-4437a1aec217)
 
 You Don't Know JS : Async and Performance
