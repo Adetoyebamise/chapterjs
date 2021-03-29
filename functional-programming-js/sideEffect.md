@@ -6,18 +6,14 @@
 
 - A side effect is any change in the system that is observable to the outside world.
 
-Example: 
+Example:
+  
+    const timeout = () => {
+    setTimeout(() => alert('Hey'), 1000);
+    };
 
-```
-1;
-!false;
 
-```
-- It is a useless program, though. An expression can be content to just produce
-a value, which can then be used by the enclosing code. A statement stands on
-its own, so it amounts to something only if it affects the world - or it could change
-the internal state of the machine in a way that will affect the statements that
-come after it. These changes are called _side effects_. 
+-  An expression can be content to just produce a value, which can then be used by the enclosing code. A statement stands on its own, so it amounts to something only if it affects the world - or it could change the internal state of the machine in a way that will affect the statements that come after it. These changes are called _side effects_. 
 
 Other examples of side effects are:
 
